@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 15px;
+    color: lightslategrey;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 45px;
+}
+.header-name{
+    color: deeppink;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section{
+    height: 600px;
+    margin-bottom: 100px;
+    display: block;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width{
+    padding: 5% 7%;
+}
+.header-part{
+    display: flex;
+}
+.half-width img{
+    width: 100%;
+}
+.header-text{
+    padding: 35% 0%;
+}
+.hire-me{
+    color: #fff;
+    background-image: linear-gradient(45deg, #EC4F8E , #EC4C7A);
+    padding: 7px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.hire-me:hover, .cv-download:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.biography-part{
+    display: flex;
+}
+.biography-text{
+    padding:15% 9%;
+}
+.cv-download{
+    color: #fff;
+    background-image: linear-gradient(45deg, #EC4F8E , #EC4C7A);
+    padding: 7px 25px;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.latest-work-part{
+    display: flex;
+}
+.latest-work-part img{
+    width: 100%;
+}
+.half-width-img{
+    padding: 10% 5%;
+}
+.client{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.client-part p{
+    color: #000;
+    line-height: 25px;
+}
+.email{
+    background-image: linear-gradient( #E94E8C, #ED4B70);
+    height: 70px;
+    padding: 5% 5%;
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 10px;
+}
+.email p{
+    color: #fff;
+    font-size: 20px;
+}
+.founder{
+    color: darkslategrey !important;
+}
+.email h3{
+    font-size: 28px;
+}
+footer P{
+    text-align: center;
+}
